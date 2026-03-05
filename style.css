@@ -1,0 +1,262 @@
+* {
+     font-family: "Roboto", sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing:border-box;
+    /* margin: 0.2vw;
+    padding: 0.1px; */
+    /* margin: 2PX;
+    padding: 0; */
+    /* border: 2px solid black;
+    border-radius: 4px; */
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 7vh;
+    background-image: linear-gradient(to right, rgb(70, 203, 243), rgb(216, 37, 216));
+    color: rgb(252, 249, 249);
+    gap: 35px;
+
+    position: fixed;
+    top: 0px;
+
+}
+
+nav section {
+    font-size: 26px;
+    /* font-family: "Playwrite DE SAS", cursive; */
+    font-family: "Exo 2", sans-serif;
+
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    flex-direction: row
+}
+
+/* ul{
+    
+} */
+
+.hero {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(176, 176, 255), rgb(218, 65, 218));
+    height: 75vh;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+}
+
+.heroleft {
+    /* display:flex;
+    list-style-type: none;
+    gap:8px;
+    flex-direction:row */
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* image{
+    width:1000000px;
+} */
+
+/* .image{
+
+    display:flex;
+    
+    
+}  */
+
+/* section .image{
+    width:5px;
+} */
+
+#b1,
+#b2 {
+    border-radius: 5px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(90, 88, 172), rgb(19, 5, 214));
+    color: white;
+    cursor: pointer;
+}
+
+.projects {
+    background-image: linear-gradient(to right, rgba(40, 208, 250, 0.726), rgb(175, 14, 250));
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 5px;
+    /* margin: 5px; */
+
+}
+
+.p1 {
+    display: flex;
+    /* height: 30vw; */
+    /* justify-content: space-between; */
+}
+
+
+.p2 {
+    display: flex;
+    flex-direction: row-reverse;
+    /* height: 30vw; */
+    */ justify-content: space-between;
+}
+
+.pimage img {
+    width: 49vw;
+    border-radius: 20px;
+}
+
+
+/* .pinfo{ display: flex;
+      flex-direction: column ;
+    justify-content: center;
+} */
+
+/* .pinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content;
+} */
+
+.h {
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+
+
+}
+
+.data {
+    font-size: 28px;
+    
+
+
+}
+
+ @media screen and (max-width :765px) {
+     .hero {
+        flex-direction: column-reverse;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+
+        .heroright img{ width:65%;}
+    }
+} 
+
+/* @media screen and (max-width :836px) {
+     .hero { height:50vh;}
+}
+        */
+
+
+
+
+ @media screen and (max-height :928px) {
+
+
+    .hero img{width:75%;}
+     
+} 
+
+
+ @media screen and (max-height :679px) {
+
+
+    .hero img{width:73%;}
+     
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    /* position:;
+  bottom:0px; */
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: space-between;
+}
+
+.end {
+    font-size: 26px;
+    color: whitesmoke;
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* position:absolute;
+  bottom:0px; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+    background: #ff5ecf;
+    color: white;
+    /* position:absolute;
+  bottom:0px;
+} */
+
+    /* Twitter */
+    .fa-instagram {
+        background: #ffffff;
+        color: rgb(10, 65, 245);
+        /* position:absolute;
+  bottom:0px; */
+    }
